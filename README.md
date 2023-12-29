@@ -13,7 +13,7 @@
 <br />
 
 <div align="center"><h4> An image colourisation model trained on 570k images using autoencoders to colourise grayscale images.</h4></div>
-<div align="center"><a href="https://image-colouriser-streamlit.herokuapp.com/"><img src="https://forthebadge.com/images/badges/check-it-out.svg" /></a></div>
+
 
 <br />
 
