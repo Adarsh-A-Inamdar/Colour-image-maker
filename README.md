@@ -28,26 +28,8 @@
 
 The path files for the models trained on landscapes, people, fruits, and animals are available as [landscapes.pth](https://github.com/Priyansi/image-colouriser-streamlit/blob/master/app/landscapes.pth), [people.pth](https://github.com/Priyansi/image-colouriser-streamlit/blob/master/app/people.pth), [fruits.pth](https://github.com/Priyansi/image-colouriser-streamlit/blob/master/app/fruits.pth) and [animals.pth](https://github.com/Priyansi/image-colouriser-streamlit/blob/master/app/animals.pth).
 
-1. Clone the repository with `git clone https://gitlab.com/twishabansal/image-colourisation.git`
-2. Open `image-colourization-starter.ipynb`.
-3. To load a particular path file in your notebook, run -
-```python
-def load_checkpoint(filepath): 
-    model = Encoder_Decoder()
-    checkpoint = torch.load(filepath)
-    model.load_state_dict(checkpoint['state_dict'])
-    
-    return model
-```
-```
-model = load_checkpoint(filepath)
-```
 
-## Train the Model from Scratch
 
-1. Clone the repository with `git clone https://gitlab.com/twishabansal/image-colourisation.git`<br>
-2. Documented Code for the model is available in the repository as `image-colourization-starter.ipynb` as an IPython notebook.<br>
-3. Refer to the code written to process the data, define the model, train it, and finally get a prediction.
 
 ### Datasets 
 The following datasets were used to train the respective models-
@@ -69,18 +51,3 @@ The following datasets were used to train the respective models-
 4. [African Wildlife](https://www.kaggle.com/biancaferreira/african-wildlife)
 5. [Animals Dataset](https://www.kaggle.com/navneetsurana/animaldataset)
 6. [The Oxford-IIIT Pet Dataset](https://www.kaggle.com/tanlikesmath/the-oxfordiiit-pet-dataset)
-
-## How To Run The Web App
-1. Clone the repository with `https://github.com/Priyansi/image-colouriser-streamlit.git`
-2. To install Streamlit - `pip install streamlit`
-3. To run the app on `http://localhost:8501` run `streamlit run app/app.py`
-
-## References
-1. [Colorful Image Colorization](https://arxiv.org/pdf/1603.08511.pdf)
-2. [Applications of AutoEncoders - Image Colourisation](https://github.com/bnsreenu/python_for_microscopists)
-
-## License
-All rights reserved. Licensed under the MIT License.
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
