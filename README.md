@@ -5,15 +5,12 @@
 <a href="https://heroku.com/"><img src="https://img.shields.io/badge/heroku%20-%23430098.svg?&style=for-the-badge&logo=heroku&logoColor=white" href="https://heroku.com/" /></a>
 </div>
 
-<div align="center">
-<a href="https://pypi.python.org/pypi/ansicolortags/"><img src="https://img.shields.io/pypi/l/ansicolortags.svg" /></a>
-<img src="https://img.shields.io/github/contributors/priyansi/colourful-image-colourisation">
-</div>
+
 
 <br />
 
 <div align="center"><h4> An image colourisation model trained on 570k images using autoencoders to colourise grayscale images.</h4></div>
-
+<div align="center"><a href="https://image-colouriser-streamlit.herokuapp.com/"><img src="https://forthebadge.com/images/badges/check-it-out.svg" /></a></div>
 
 <br />
 
